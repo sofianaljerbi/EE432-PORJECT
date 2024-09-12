@@ -1,0 +1,25 @@
+{
+    "F001": {
+        "name": "Dr. Salah",
+        "password": "pass789",
+        "assigned_courses": [
+            "EE200",
+            "EE202"
+        ]
+    },
+    "F002": {
+        "name": "Prof. Huda",
+        "password": null,
+        "assigned_courses": [
+            "GS101",
+            "GS102"
+        ]
+    },
+    "0000": {
+        "name": "DR.AHMED JABER",
+        "password": "1234",
+        "assigned_courses": [
+            "GS102"
+        ]
+    }
+}

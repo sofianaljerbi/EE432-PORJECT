@@ -1,0 +1,48 @@
+{
+    "lectures": [
+        {
+            "course": "EE200",
+            "day": "Monday",
+            "time": "10:00-11:30",
+            "room": "101"
+        },
+        {
+            "course": "GS101",
+            "day": "Wednesday",
+            "time": "12:00-13:30",
+            "room": "202"
+        },
+        {
+            "course": "EE200",
+            "day": "SUNDAY",
+            "time": "10:00-11:30",
+            "room": "1"
+        }
+    ],
+    "exams": [
+        {
+            "course": "EE200",
+            "type": "\u0646\u0635\u0641\u064a",
+            "period": "\u0627\u0644\u0623\u0648\u0644\u0649",
+            "day": "Saturday",
+            "time": "09:00-11:00",
+            "room": "Hall A"
+        },
+        {
+            "course": "GS102",
+            "type": "\u0646\u0635\u0641\u064a",
+            "period": "\u0627\u0644\u0623\u0648\u0644\u0649",
+            "day": "SUNDAY",
+            "time": "9:00-11:00",
+            "room": "1"
+        },
+        {
+            "course": "GS112",
+            "type": "\u0646\u0635\u0641\u064a",
+            "period": "\u0627\u0644\u062b\u0627\u0646\u064a\u0629",
+            "day": "WEDNSDAY",
+            "time": "8:00-11:00",
+            "room": "3"
+        }
+    ]
+}

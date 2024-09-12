@@ -1,0 +1,640 @@
+{
+    "GH150": {
+        "name": "Arabic Language I",
+        "credits": 2,
+        "prerequisites": [],
+        "corequisites": []
+    },
+    "GH151": {
+        "name": "Arabic Language II",
+        "credits": 1,
+        "prerequisites": [
+            "GH150"
+        ],
+        "corequisites": []
+    },
+    "GH152": {
+        "name": "Arabic Language III",
+        "credits": 1,
+        "prerequisites": [
+            "GH151"
+        ],
+        "corequisites": []
+    },
+    "GS101": {
+        "name": "Mathematics I",
+        "credits": 3,
+        "prerequisites": [],
+        "corequisites": []
+    },
+    "GS102": {
+        "name": "Mathematics II",
+        "credits": 4,
+        "prerequisites": [
+            "GS101"
+        ],
+        "corequisites": []
+    },
+    "GS203": {
+        "name": "Mathematics III",
+        "credits": 3,
+        "prerequisites": [
+            "GS102"
+        ],
+        "corequisites": []
+    },
+    "GS204": {
+        "name": "Mathematics IV",
+        "credits": 3,
+        "prerequisites": [
+            "GS102"
+        ],
+        "corequisites": []
+    },
+    "GS111": {
+        "name": "Physics I",
+        "credits": 3,
+        "prerequisites": [],
+        "corequisites": []
+    },
+    "GS112": {
+        "name": "Physics II",
+        "credits": 3,
+        "prerequisites": [
+            "GS111"
+        ],
+        "corequisites": []
+    },
+    "GE127": {
+        "name": "Engineering Drawing",
+        "credits": 2,
+        "prerequisites": [],
+        "corequisites": []
+    },
+    "GE129": {
+        "name": "Workshop Technology",
+        "credits": 2,
+        "prerequisites": [],
+        "corequisites": []
+    },
+    "GE121": {
+        "name": "Engineering Mechanics I",
+        "credits": 3,
+        "prerequisites": [],
+        "corequisites": []
+    },
+    "GS115": {
+        "name": "General Chemistry",
+        "credits": 3,
+        "prerequisites": [],
+        "corequisites": []
+    },
+    "GE125": {
+        "name": "Engineering Graphics",
+        "credits": 2,
+        "prerequisites": [],
+        "corequisites": []
+    },
+    "GH141": {
+        "name": "English Language I",
+        "credits": 3,
+        "prerequisites": [],
+        "corequisites": []
+    },
+    "GH142": {
+        "name": "English Language II",
+        "credits": 3,
+        "prerequisites": [
+            "GH141"
+        ],
+        "corequisites": []
+    },
+    "GS206": {
+        "name": "Statistics and Probability",
+        "credits": 3,
+        "prerequisites": [],
+        "corequisites": []
+    },
+    "GE133": {
+        "name": "Properties of Materials",
+        "credits": 3,
+        "prerequisites": [],
+        "corequisites": []
+    },
+    "ME210": {
+        "name": "Thermodynamics I",
+        "credits": 3,
+        "prerequisites": [
+            "GS102",
+            "GS111"
+        ],
+        "corequisites": []
+    },
+    "GS200": {
+        "name": "Computer Programming (C & Mat Lab)",
+        "credits": 3,
+        "prerequisites": [
+            "GS102"
+        ],
+        "corequisites": [
+            "GS203"
+        ]
+    },
+    "EE200": {
+        "name": "Fundamentals of Electrical Engineering",
+        "credits": 3,
+        "prerequisites": [
+            "GS102",
+            "GS112"
+        ],
+        "corequisites": []
+    },
+    "EE201": {
+        "name": "Electricity Lab",
+        "credits": 2,
+        "prerequisites": [
+            "EE200"
+        ],
+        "corequisites": [
+            "EE202"
+        ]
+    },
+    "EE202": {
+        "name": "Electrical Networks",
+        "credits": 3,
+        "prerequisites": [
+            "GS112",
+            "EE200"
+        ],
+        "corequisites": []
+    },
+    "EE219": {
+        "name": "Basic Electronic Circuits",
+        "credits": 3,
+        "prerequisites": [
+            "EE200"
+        ],
+        "corequisites": [
+            "EE202"
+        ]
+    },
+    "EE234": {
+        "name": "Introduction to Digital Systems",
+        "credits": 3,
+        "prerequisites": [
+            "GS102"
+        ],
+        "corequisites": [
+            "GS200"
+        ]
+    },
+    "EE280": {
+        "name": "Fundamentals of Electrical Engineering",
+        "credits": 3,
+        "prerequisites": [
+            "GS102",
+            "GS112"
+        ],
+        "corequisites": []
+    },
+    "EE302": {
+        "name": "Signals and Systems",
+        "credits": 3,
+        "prerequisites": [
+            "GS204",
+            "EE202"
+        ],
+        "corequisites": []
+    },
+    "EE303": {
+        "name": "Numerical Methods with MATLAB Applications",
+        "credits": 3,
+        "prerequisites": [
+            "GS200",
+            "GS203",
+            "GS204"
+        ],
+        "corequisites": []
+    },
+    "EE304": {
+        "name": "Measurements and Instruments",
+        "credits": 3,
+        "prerequisites": [
+            "EE200",
+            "EE219",
+            "EE234"
+        ],
+        "corequisites": [
+            "EE319"
+        ]
+    },
+    "EE311": {
+        "name": "Electronics Lab",
+        "credits": 2,
+        "prerequisites": [
+            "EE201",
+            "EE219",
+            "EE319"
+        ],
+        "corequisites": []
+    },
+    "EE313": {
+        "name": "Electromagnetism I",
+        "credits": 3,
+        "prerequisites": [
+            "GS203",
+            "GS204",
+            "EE200"
+        ],
+        "corequisites": []
+    },
+    "EE316": {
+        "name": "Communication Engineering I",
+        "credits": 3,
+        "prerequisites": [
+            "GS204",
+            "EE302"
+        ],
+        "corequisites": []
+    },
+    "EE319": {
+        "name": "Analog Electronic Circuits",
+        "credits": 3,
+        "prerequisites": [
+            "EE202",
+            "EE219"
+        ],
+        "corequisites": []
+    },
+    "EE331N": {
+        "name": "Digital Lab",
+        "credits": 2,
+        "prerequisites": [
+            "EE201",
+            "EE234"
+        ],
+        "corequisites": [
+            "EE334"
+        ]
+    },
+    "EE334": {
+        "name": "Introduction to Microcontrollers",
+        "credits": 3,
+        "prerequisites": [
+            "EE234",
+            "GS200"
+        ],
+        "corequisites": []
+    },
+    "EE342": {
+        "name": "Electrical Power Engineering I",
+        "credits": 3,
+        "prerequisites": [
+            "EE202"
+        ],
+        "corequisites": []
+    },
+    "EE352": {
+        "name": "Electrical Machines I",
+        "credits": 3,
+        "prerequisites": [
+            "EE202"
+        ],
+        "corequisites": []
+    },
+    "EE362": {
+        "name": "Control Systems",
+        "credits": 3,
+        "prerequisites": [
+            "EE302"
+        ],
+        "corequisites": []
+    },
+    "EE413": {
+        "name": "Electromagnetism II",
+        "credits": 3,
+        "prerequisites": [
+            "EE313"
+        ],
+        "corequisites": []
+    },
+    "EE416": {
+        "name": "Communication Engineering II",
+        "credits": 3,
+        "prerequisites": [
+            "GS206",
+            "EE316"
+        ],
+        "corequisites": []
+    },
+    "EE419": {
+        "name": "Digital Electronic Circuits",
+        "credits": 3,
+        "prerequisites": [
+            "EE319"
+        ],
+        "corequisites": []
+    },
+    "EE421": {
+        "name": "Communication and Electronics Lab I",
+        "credits": 2,
+        "prerequisites": [
+            "EE304",
+            "EE311",
+            "EE331N",
+            "EE316"
+        ],
+        "corequisites": [
+            "EE413",
+            "EE419"
+        ]
+    },
+    "EE423": {
+        "name": "Effective Networks",
+        "credits": 3,
+        "prerequisites": [
+            "EE302",
+            "EE319"
+        ],
+        "corequisites": []
+    },
+    "EE429": {
+        "name": "Semiconductor Electronics",
+        "credits": 3,
+        "prerequisites": [
+            "EE319"
+        ],
+        "corequisites": []
+    },
+    "EE432": {
+        "name": "Data Structures",
+        "credits": 3,
+        "prerequisites": [
+            "EE334"
+        ],
+        "corequisites": []
+    },
+    "EE433": {
+        "name": "Operating Systems",
+        "credits": 3,
+        "prerequisites": [
+            "EE334"
+        ],
+        "corequisites": []
+    },
+    "EE434": {
+        "name": "Computer Engineering",
+        "credits": 3,
+        "prerequisites": [
+            "EE334"
+        ],
+        "corequisites": []
+    },
+    "EE442": {
+        "name": "Electrical Power Engineering II",
+        "credits": 3,
+        "prerequisites": [
+            "EE342"
+        ],
+        "corequisites": []
+    },
+    "EE443": {
+        "name": "Power Stations",
+        "credits": 3,
+        "prerequisites": [
+            "EE342",
+            "EE352",
+            "ME210"
+        ],
+        "corequisites": []
+    },
+    "EE445": {
+        "name": "Power Distribution Systems",
+        "credits": 3,
+        "prerequisites": [
+            "EE342"
+        ],
+        "corequisites": []
+    },
+    "EE446": {
+        "name": "High Voltage Engineering I",
+        "credits": 3,
+        "prerequisites": [
+            "EE342",
+            "EE352"
+        ],
+        "corequisites": [
+            "EE452"
+        ]
+    },
+    "EE448": {
+        "name": "Power Electronics I",
+        "credits": 3,
+        "prerequisites": [
+            "EE219",
+            "EE342"
+        ],
+        "corequisites": []
+    },
+    "EE449": {
+        "name": "Power Systems Analysis",
+        "credits": 3,
+        "prerequisites": [
+            "EE352"
+        ],
+        "corequisites": [
+            "EE442"
+        ]
+    },
+    "EE451": {
+        "name": "Electrical Power Lab I",
+        "credits": 2,
+        "prerequisites": [
+            "EE304",
+            "EE311",
+            "EE331N"
+        ],
+        "corequisites": [
+            "EE448",
+            "EE452"
+        ]
+    },
+    "EE452": {
+        "name": "Electrical Machines II",
+        "credits": 3,
+        "prerequisites": [
+            "EE352"
+        ],
+        "corequisites": []
+    },
+    "EE461": {
+        "name": "Control and Computer Lab I",
+        "credits": 2,
+        "prerequisites": [
+            "EE304",
+            "EE311",
+            "EE331N",
+            "EE362"
+        ],
+        "corequisites": [
+            "EE434"
+        ]
+    },
+    "EE462": {
+        "name": "Digital Control Systems",
+        "credits": 3,
+        "prerequisites": [
+            "EE362"
+        ],
+        "corequisites": []
+    },
+    "EE463": {
+        "name": "Data Acquisition and Conversion Systems",
+        "credits": 3,
+        "prerequisites": [
+            "EE334",
+            "EE362"
+        ],
+        "corequisites": []
+    },
+    "EE491": {
+        "name": "Computer Applications and Design Lab",
+        "credits": 2,
+        "prerequisites": [
+            "EE421",
+            "EE451",
+            "EE462"
+        ],
+        "corequisites": []
+    },
+    "EE513": {
+        "name": "Electromagnetism III",
+        "credits": 3,
+        "prerequisites": [
+            "EE413"
+        ],
+        "corequisites": []
+    },
+    "EE516": {
+        "name": "Communication Systems I",
+        "credits": 3,
+        "prerequisites": [
+            "EE416"
+        ],
+        "corequisites": []
+    },
+    "EE519": {
+        "name": "Semiconductor Devices",
+        "credits": 3,
+        "prerequisites": [
+            "EE429"
+        ],
+        "corequisites": []
+    },
+    "EE521": {
+        "name": "Communications and Electronics Laboratory II",
+        "credits": 2,
+        "prerequisites": [
+            "EE421",
+            "EE416",
+            "EE419"
+        ],
+        "corequisites": [
+            "EE513"
+        ]
+    },
+    "EE524": {
+        "name": "Communications and Networks",
+        "credits": 3,
+        "prerequisites": [
+            "EE416"
+        ],
+        "corequisites": []
+    },
+    "EE526": {
+        "name": "Communication Systems II",
+        "credits": 3,
+        "prerequisites": [
+            "EE416"
+        ],
+        "corequisites": [
+            "EE516"
+        ]
+    },
+    "EE532": {
+        "name": "Computer Networks",
+        "credits": 3,
+        "prerequisites": [
+            "EE303",
+            "EE434"
+        ],
+        "corequisites": []
+    },
+    "EE535": {
+        "name": "Microcontrollers",
+        "credits": 3,
+        "prerequisites": [
+            "EE434",
+            "EE462"
+        ],
+        "corequisites": []
+    },
+    "EE542": {
+        "name": "Electrical Power Engineering III",
+        "credits": 3,
+        "prerequisites": [
+            "EE442"
+        ],
+        "corequisites": []
+    },
+    "EE548": {
+        "name": "Power Electronics II",
+        "credits": 3,
+        "prerequisites": [
+            "EE448"
+        ],
+        "corequisites": []
+    },
+    "EE551": {
+        "name": "Electrical Power Laboratory II",
+        "credits": 2,
+        "prerequisites": [
+            "EE451",
+            "EE448",
+            "EE449"
+        ],
+        "corequisites": [
+            "EE552"
+        ]
+    },
+    "EE552": {
+        "name": "Electrical Machines III",
+        "credits": 3,
+        "prerequisites": [
+            "EE452"
+        ],
+        "corequisites": []
+    },
+    "EE561": {
+        "name": "Control and Computer Laboratory II",
+        "credits": 2,
+        "prerequisites": [
+            "EE461",
+            "EE462",
+            "EE463"
+        ],
+        "corequisites": [
+            "EE535",
+            "EE563"
+        ]
+    },
+    "EE562": {
+        "name": "Modeling and Simulation",
+        "credits": 3,
+        "prerequisites": [
+            "EE303",
+            "EE462"
+        ],
+        "corequisites": []
+    }
+}
